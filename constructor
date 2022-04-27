@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication5
+{
+classProgram
+    {
+int num;
+string name;
+            Program()
+          {
+Console.WriteLine("Constructor called");
+          }
+
+publicstaticvoid Main(string [] args)
+         {
+	
+Program p1=newProgram();
+Console.WriteLine(p1.num);
+Console.WriteLine(p1.name);
+Console.ReadLine();
+	     }
+
+
+    }
+}
